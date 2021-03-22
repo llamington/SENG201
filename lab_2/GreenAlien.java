@@ -3,7 +3,7 @@ public class GreenAlien {
     public int eyeCount;
     public String favouriteCandy;
 
-    public String getDescription() {
+    public String toString() {
         return "This Alien is called " + name + " and has " + eyeCount + " eyes. Gross. It seems to enjoy eating "
                 + favouriteCandy;
     }
@@ -20,15 +20,20 @@ public class GreenAlien {
         favouriteCandy = tempCandy;
     }
 
+    public boolean equals(GreenAlien other) {
+        if (name == other.name && eyeCount == other.eyeCount && favouriteCandy == other.favouriteCandy)
+            return true;
+        return false;
+    }
+
     public static void main(String[] args) {
         GreenAlien kloup = new GreenAlien();
+        GreenAlien lesap = new GreenAlien();
         GreenAlien gwerp = new GreenAlien("Gwerp", 4, "Marshmellows");
-        GreenAlien blarg = new GreenAlien("Blarg", 3, "Pop Rocks");
-        GreenAlien hloff = new GreenAlien("Hloff", 5, "Pineapple Lumps");
+        GreenAlien blarg = new GreenAlien("Kloup", 3, "Pop Rocks");
 
-        System.out.println(kloup.getDescription());
-        System.out.println(gwerp.getDescription());
-        System.out.println(blarg.getDescription());
-        System.out.println(hloff.getDescription());
+        System.out.println(kloup == lesap);
+        System.out.println(gwerp == lesap);
+        System.out.println(kloup == blarg);
     }
 }

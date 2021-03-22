@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch GreenAlienTransporter",
+            "request": "launch",
+            "mainClass": "GreenAlienTransporter",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreenAlien",
+            "request": "launch",
+            "mainClass": "GreenAlien",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch StarmanSummits",
+            "request": "launch",
+            "mainClass": "StarmanSummits",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocationBeacon",
+            "request": "launch",
+            "mainClass": "LocationBeacon",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarsHoliday",
+            "request": "launch",
+            "mainClass": "MarsHoliday",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LiftoffWatch",
+            "request": "launch",
+            "mainClass": "LiftoffWatch",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpaceStation",
+            "request": "launch",
+            "mainClass": "SpaceStation",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpaceCalculations",
+            "request": "launch",
+            "mainClass": "SpaceCalculations",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch StarmanFixes",
+            "request": "launch",
+            "mainClass": "StarmanFixes",
+            "projectName": "SENG201_da353175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": ".\\${relativeFile}"
+        }
+    ]
+}
